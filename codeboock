@@ -1,0 +1,16 @@
+
+feature <- list of all features
+activity <- activity labels
+datas for the test set  (activity, subject and set)
+activity_test <- Test labels
+subject_test <- Each row identifies the subject who performed the activity for each window sample for the test set.
+Its range is from 1 to 30.
+test_set <- Test set
+datas for the train set (activity, subject and set)
+activity_train <- Training labels
+subject_train <- Each row identifies the subject who performed the activity for each window sample for the train set.
+Its range is from 1 to 30.
+train_set <- Training set
+merge_set <- merge the training and the test sets to create one data set.
+merge_set_clean <- extracts only the measurements on the mean and standard deviation for each measurement.
+result_data <- data frame wich was grouped by activities and subjects from merge_set_clean
